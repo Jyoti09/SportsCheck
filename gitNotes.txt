@@ -80,6 +80,10 @@ git diff:
 
 -git commit --amend -m "commit message"
 	- This command helps to change the previous commit message and 		commit everything not included in the previous commit with new 		commit message 
+- Retrive file from a specific commit
+	- git checkout HASHvalue filename
+	- eg. git checkout ab653 file1.txt
+	
 Configure tooling
 Configure user information for all local repositories
 
