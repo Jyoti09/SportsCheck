@@ -83,6 +83,9 @@ git diff:
 - Retrive file from a specific commit
 	- git checkout HASHvalue filename
 	- eg. git checkout ab653 file1.txt
+- Make .gitignore global. So that all the files to be ignored in all 		repositories are written in a single ignore file
+	- git config --global core.excludesfile ~/.gitignore_global 		(any file name)
+
 	
 Configure tooling
 Configure user information for all local repositories
